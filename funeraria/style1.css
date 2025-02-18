@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+input[type="email"],input[type="text"]{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.password-container {
+    position: relative;
+    width: 101%
+}
+
+.password-container input{
+    width: 99%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-right: -50px;
+    outline: none;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: gray;
+}
+
+.opti{
+    position: relative;
+    width: 101%
+}
+
+.opti select{
+    width: 101%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.send {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(1, 79, 247);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: rgb(29, 2, 181);
+    transition: 0.5s;
+}
+
+.send1{
+    width: 60%;
+    height: 40px;
+    background-color: rgb(1, 79, 247);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.send1:hover{
+    background-color: rgb(29, 2, 181);
+    transition: 0.5s;
+}
+
+.reset{
+    text-decoration: none;
+    color: rgb(71, 71, 252);
+}
+
+#extra-fields input[type="text"],input[type="tel"]{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#extra-fields input[type="date"]{
+    width: 101%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
